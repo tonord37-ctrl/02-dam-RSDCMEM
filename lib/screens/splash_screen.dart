@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:platillos_qroo/screens/home_screen.dart';
+import 'package:platillos_qroo/screens/main_screen.dart';
 import 'package:platillos_qroo/widgets/colores.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -23,7 +23,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute<void>(builder: (_) => const HomeScreen()),
+        MaterialPageRoute<void>(builder: (_) => const MainScreen()),
       );
     });
   }
